@@ -122,53 +122,38 @@ A note on frameworks, e.g. Bootstrap, Foundation, etc.
 Tailor the elements.
 
 * Content headers, lists, blockquotes
-
 * Form fields, fieldsets and buttons
-
 * Links
 
 Components
 
 * Common
-
     * Pagers
-
     * Tabs
-
     * AJAX throbbers
-
     * Fallback default images
 
 * Custom
-
     * Auction teaser
-
     * Ancillary block
 
 Last but not least, standard system pages.
 
 * Search results
-
 * ‘Page not Found’ and ‘Access Denied’ pages
-
 * System messages
-
 * Maintenance page
 
 Pay special attention to links.  Represent links consistently so the user can predict what is a link and what is not.  Prefer usability to perfect aesthetics.
 
 * Basic text anchor tags
-
 * Images
-
 * Teasers and other composite wrapping links
 
 Don’t forget user interactions
 
 * Mouse hover
-
 * Tap/click
-
 * Scroll
 
 Consider animation
@@ -182,7 +167,6 @@ Consider animation
 ### Mockups
 
 * Low fidelity is good
-
 * High fidelity is expensive
 
 ### Iterate
