@@ -15,7 +15,7 @@ It’s tempting to use Bacon ipsum for placeholder text, and in certain circumst
 
 Whether the final copy already exists or not, you will need real content to flesh out the real-world display of content displays and user interfaces.
 
-#### Content varies 
+#### Content varies
 
 Paragraph and line length are variable but have patterns. Identify the edge cases and include those in your decision making process. Using several pieces of real content (rather than a single, repeated item) can help expose a design’s unrealistically rigid assumptions about character length.
 
@@ -29,7 +29,7 @@ Try to think in terms of structured content and variable, fluid heights. Sometim
 
 [Truncation is not a content strategy](https://twitter.com/karenmcgrane/status/520576694210801665).
 
-Get the aspect ratios and image sizes of the client’s available and potential image library. 
+Get the aspect ratios and image sizes of the client’s available and potential image library.
 
 Interactions between bitmap images and overlapping text can be especially delicate. Text should almost never be rendered within an image, but overlaid as a separate element. Expect the font to be resized by the user.
 
