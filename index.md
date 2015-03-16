@@ -7,9 +7,13 @@ This guide documents the best practices and pitfalls that we’ve experienced wh
 
 ## Content-Driven Design
 
+Design prototypes need placeholder text and graphics. In this section, we recommend spending the additional time to engage the client to obtain real client for the production website. This makes us more dependent on a busy, or possibly, unmotivated client, but it is critical to the implementation and long-term success of the project.
+
 ### Use real, representative content
 
-It’s tempting to use Bacon ipsum for placeholder text, and in certain circumstances, there’s nothing wrong with "ham hock bresaola". But the client content is the single most important thing about the site. All too often designers build-in assumptions as simple as the length, or even presence, of a blurb. Whether the final copy already exists or not, you will need real content to flesh out the real-world display of content displays and user interfaces.
+It’s tempting to use Bacon ipsum for placeholder text, and in certain circumstances, there’s nothing wrong with "ham hock bresaola". But the client content is the single most important thing about the site. All too often designers bake assumptions into the design as simple as the length, or even presence, of a line of text.
+
+Whether the final copy already exists or not, you will need real content to flesh out the real-world display of content displays and user interfaces.
 
 #### Content varies 
 
