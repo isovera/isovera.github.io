@@ -7,7 +7,7 @@ This guide documents the best practices and pitfalls that we’ve experienced wh
 
 ## Content-Driven Design
 
-Design prototypes need placeholder text and graphics. In this section, we recommend spending the additional time to engage the client to obtain real client for the production website. This makes us more dependent on a busy, or possibly, unmotivated client, but it is critical to the implementation and long-term success of the project.
+Design prototypes need placeholder text and graphics. In this section, we recommend spending the additional time to engage the client to obtain real client content for the production website. This makes us more dependent on a busy, or possibly, unmotivated client, but it is critical to the implementation and long-term success of the project.
 
 ### Use real, representative content
 
