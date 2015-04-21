@@ -1,9 +1,12 @@
 # Drupal Design Guide
+This is a living document developed by [Isovera] (https://www.isovera.com/) to help design agencies work better with developers in creating responsive websites with Drupal. 
+
+The guide documents the best practices and pitfalls that we’ve experienced when collaborating with external design agencies on responsive websites. This guide is a work in progress and we are constantly refining our development process. Please [contact us] (https://www.isovera.com/contact-us) Feel free to review, absorb, and share.
+
 ## Preface
 
 Front-end web development has entered an exciting and volatile phase. Responsive web design has moved from a novelty to a client expectation. Meanwhile, the agile development methodology has moved from its roots in product development and software applications to web design agencies. Along with this change, came new technologies and more efficient and adaptive workflows.
 
-This guide documents the best practices and pitfalls that we’ve experienced when collaborating with external design agencies on responsive websites. This guide is a work in progress and we are constantly refining our development process. Please contact us with any feedback or questions.
 
 ## Content-Driven Design
 
