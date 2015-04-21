@@ -1,7 +1,7 @@
 # Drupal Design Guide
 This is a living document developed by [Isovera](https://www.isovera.com/) to help design agencies work better with developers in creating responsive websites with Drupal. 
 
-The guide documents the best practices and pitfalls that we’ve experienced when collaborating with external design agencies on responsive websites. This guide is a work in progress and we are constantly refining our development process. Please [contact us](https://www.isovera.com/contact-us) Feel free to review, absorb, and share.
+The guide documents the best practices and pitfalls that we’ve experienced when collaborating with external design agencies on responsive websites. This guide is a work in progress and we are constantly refining our development process. Please [contact us](https://www.isovera.com/contact-us) with any feedback or questions.
 
 ## Preface
 
