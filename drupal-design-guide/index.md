@@ -203,3 +203,4 @@ As [Ben Callan of Sparkbox has emphasized](http://www.uie.com/brainsparks/2014/1
 * [Responsive Web Design](http://abookapart.com/products/responsive-web-design) by Ethan Marcotte
 * [The Responsive Web](http://www.manning.com/carver/) by Matthew Carver
 * [Mobile First](http://abookapart.com/products/mobile-first) by Luke Wroblewski
+* [Responsible Responsive Design](http://abookapart.com/products/responsible-responsive-design) by Scott Jehl
