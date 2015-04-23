@@ -197,6 +197,7 @@ As [Ben Callan of Sparkbox has emphasized](http://www.uie.com/brainsparks/2014/1
 * [This is Responsive](http://bradfrost.github.io/this-is-responsive/) by Brad Frost
 * [Website Style Guide Resources](http://styleguides.io) by Anna Debenham and Brad Frost
 * [Responsive Web Design podcast](http://responsivewebdesign.com/podcast/) featuring Ethan Marcotte and Karen McGrane
+* [Style Tiles](http://styletil.es) by Samantha Warren
 
 ### Books
 
