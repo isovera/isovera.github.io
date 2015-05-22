@@ -8,6 +8,22 @@ The guide documents the best practices and pitfalls that we’ve experienced whe
 Front-end web development has entered an exciting and volatile phase. Responsive web design has moved from a novelty to a client expectation. Meanwhile, the agile development methodology has moved from its roots in product development and software applications to web design agencies. Along with this change, came new technologies and more efficient and adaptive workflows.
 
 
+## TL;DR
+
+1. Collaboration and feedback channels: Slack, Google Hangouts
+1. Planning and scheduling: Google Calendar, Basecamp and Github Milestones
+1. User stories: Github issues
+1. Use real content and design for both common cases and edge cases
+1. Never introduce features or unusual structures in Photoshop comps. Provide lo-fi wireframes and sketches.
+1. Design to accommodate older displays, visual disabilities and keyboard navigation
+1. Provide assets to accomodate high resolution displays: vector and high resolution image assets
+1. Obtain aspect ratios, composition and production capability from client
+1. Fluid Grid system, percentage-based layout, rem units
+1. Start with small (mobile) breakpoint sizes to establish priority and source order
+1. Help our developers build a component-based design system
+1. Plan to brainstorm and sketch interactive behaviors and animations with developer. The design is how it works.
+1. If a design takes ten seconds to load, nobody will stay to see it. Consult with our developers to strike a balance between aesthetics and performance.
+
 ## Content-Driven Design
 
 Design prototypes need placeholder text and graphics. In this section, we recommend spending the additional time to engage the client to obtain real client content for the production website. This makes us more dependent on a busy, or possibly, unmotivated client, but it is critical to the implementation and long-term success of the project.
