@@ -26,7 +26,7 @@ Front-end web development has entered an exciting and volatile phase. Responsive
 
 ## Content-Driven Design
 
-Design prototypes need placeholder text and graphics. In this section, we recommend spending the additional time to engage the client to obtain real client content for the production website. This makes us more dependent on a busy, or possibly, unmotivated client, but it is critical to the implementation and long-term success of the project.
+Design prototypes need placeholder text and graphics. In this section, we recommend spending the additional time to engage the client to obtain real client content for the production website. This makes us more dependent on a busy or possibly unmotivated client, but it is critical to the implementation and long-term success of the project.
 
 ### Use real, representative content
 
@@ -56,7 +56,7 @@ Interactions between bitmap images and overlapping text can be especially delica
 
 #### Identify the client’s capabilities
 
-Client’s have a limited amount of time and resources. Do they have a dedicated content creator? Will they have time allocated to work on the content of that special feature? Do they have access to Photoshop and are they comfortable working with HTML? Don’t assume they will use the tools that  you have access to as a designer. Limit content to what the client can provide and maintain.
+Clients have a limited amount of time and resources. Do they have a dedicated content creator? Will they have time allocated to work on the content of that special feature? Do they have access to Photoshop and are they comfortable working with HTML? Don’t assume they will use the tools that  you have access to as a designer. Limit content to what the client can provide and maintain.
 
 ### Resilient, not brittle
 
