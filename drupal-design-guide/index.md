@@ -68,6 +68,8 @@ People don’t read, they scan the web. Design for sub-optimal attention spans. 
 
 Curb cuts are good for baby strollers, lever door handles are useful when your hands are full or there’s an emergency. Seemingly innocuous design decisions can make a site impossible to use for some people. Read up on [WCAG 2.0](http://www.w3.org/TR/WCAG20/). Accessibility is also a human right.
 
+[An Alphabet of Accessibility Issues](https://the-pastry-box-project.net/anne-gibson/2014-July-31) points out some of the less obvious challenges users may face when navigating websites.
+
 ## Mobile-First Design
 
 ### Start small
@@ -83,6 +85,8 @@ Art direction for responsive design: landscape/portrait, small/large:
 [http://usecases.responsiveimages.org/#art-direction](http://usecases.responsiveimages.org/#art-direction)
 
 Performance is critical. Consider image file sizes and count. Too many widgets or too large images will degrade the page load.
+
+[How we make RWD sites load fast as heck](http://www.filamentgroup.com/lab/performance-rwd.html)
 
 ### On Design Artifacts
 
@@ -136,36 +140,21 @@ For some components, the total count of items in a grid will not conform to a pr
 
 The web is fluid. Web browsers are a continuum of shapes, sizes, resolutions and capabilities. Instead of focusing exclusively on one, two or three breakpoints, consider appearance at interstitial viewport sizes. Remember that users often don’t maximize their browser windows.
 
-A note on frameworks, e.g. Bootstrap, Foundation, etc.
+A note on frameworks, e.g. Bootstrap, Foundation, etc. 
 
 ## Style Guide-Driven Design
 
 ### Style guides
 
-Tailor the elements.
+A style guide details how individual site elements and components should look, rather than an entire page.  [Pattern Lab](http://demo.patternlab.io/) is a nice example of an interactive style guide and there are lots of others listed on [Website Style Guide Resources](http://styleguides.io/examples.html).
 
-* Content headers, lists, blockquotes
-* Form fields, fieldsets and buttons
-* Links
+Style guides have two main parts--base elements and components.
 
-Components
+Base elements [basic elements, base styles, foundational elements] are the building blocks of a site. These include things like content headers, lists, links, color schemes, form fields, and other simple elements. 
 
-* Common
-    * Pagers
-    * Tabs
-    * AJAX throbbers
-    * Fallback default images
-
-* Custom
-    * Auction teaser
-    * Ancillary block
-
-Last but not least, standard system pages.
-
-* Search results
-* ‘Page not Found’ and ‘Access Denied’ pages
-* System messages
-* Maintenance page
+Components [patterns, feature blocks] are larger sets of elements reused throughout the site (see Glossary). Some examples are pagers, tabs, AJAX throbbers, search results, and system messages. 
+ 
+User interactions like hovers, taps, clicks, and scrolling can also be included, as well as any animations used ([Adding items](http://codepen.io/valhead/full/adnKt), [jQuery Approach](http://srobbin.com/jquery-plugins/approach/)). 
 
 Pay special attention to links.  Represent links consistently so the user can predict what is a link and what is not.  Prefer usability to perfect aesthetics.
 
@@ -173,17 +162,6 @@ Pay special attention to links.  Represent links consistently so the user can pr
 * Images
 * Teasers and other composite wrapping links
 
-Don’t forget user interactions
-
-* Mouse hover
-* Tap/click
-* Scroll
-
-Consider animation
-
-[Adding items](http://codepen.io/valhead/full/adnKt)
-
-[jQuery Approach](http://srobbin.com/jquery-plugins/approach/)
 
 ## Agile Workflows
 
@@ -202,6 +180,8 @@ Sketch, screen share and explain your ideas and assumptions. Or meet in person.
 
 As [Ben Callan of Sparkbox has emphasized](http://www.uie.com/brainsparks/2014/11/07/ben-callahan-dissecting-design-live/), humility and empathy are key virtues for a successful responsive web design team. No one person on the project will be able to dictate the operational design of the site.
 
+[Why Designers and Web Developers Must Work Together](http://designmodo.com/designers-developers-work/) emphasizes the important of collaboration between those two roles in particular.
+
 ## Glossary
 
 *Component* - A repeatable pattern composed of text, form fields, images, or other elements. We use this term in place of *module*, which can be confused with the Drupal programming term.
@@ -214,6 +194,9 @@ As [Ben Callan of Sparkbox has emphasized](http://www.uie.com/brainsparks/2014/1
 * [Website Style Guide Resources](http://styleguides.io) by Anna Debenham and Brad Frost
 * [Responsive Web Design podcast](http://responsivewebdesign.com/podcast/) featuring Ethan Marcotte and Karen McGrane
 * [Style Tiles](http://styletil.es) by Samantha Warren
+* [Content-out Layout: the Resources](http://alistapart.com/blog/post/content-out-layout-the-resources/) by Nathan Ford
+* [About HTML semantics and front-end architecture](http://alistapart.com/blog/post/content-out-layout-the-resources/) by Nicolas Gallagher
+* [Designing for the Web](http://www.designingfortheweb.co.uk/) by Mark Boulton
 
 ### Books
 
