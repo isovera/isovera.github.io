@@ -138,9 +138,9 @@ For some components, the total count of items in a grid will not conform to a pr
 
 ### Breakpoints
 
-The web is fluid. Web browsers are a continuum of shapes, sizes, resolutions and capabilities. Instead of focusing exclusively on one, two or three breakpoints, consider appearance at interstitial viewport sizes. Remember that users often don’t maximize their browser windows.
+The web is fluid. Web browsers are a continuum of shapes, sizes, resolutions and capabilities. Instead of focusing exclusively on one, two or three breakpoints, consider appearance at interstitial viewport sizes. Remember that users often don’t maximize their browser windows or may be on a mobile device. [Think about device classes (smartphones) instead of specific devices (iPhone 6+).](http://alistapart.com/article/designing-for-breakpoints)
 
-A note on frameworks, e.g. Bootstrap, Foundation, etc. 
+[Bootstrap](http://getbootstrap.com/), [Foundation](http://foundation.zurb.com/), and other frameworks can help. They come with well-tested, responsive CSS styles that work as a base for building responsive websites. 
 
 ## Style Guide-Driven Design
 
