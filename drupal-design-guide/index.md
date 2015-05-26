@@ -148,20 +148,9 @@ A note on frameworks, e.g. Bootstrap, Foundation, etc.
 
 A style guide details how individual site elements and components should look, rather than an entire page.  [Pattern Lab](http://demo.patternlab.io/) is a nice example of an interactive style guide and there are lots of others listed on [Website Style Guide Resources](http://styleguides.io/examples.html).
 
-Style guides have two main parts--base elements and components.
+Style guides have two main parts--base elements and components. Base elements [basic elements, base styles, foundational elements] are the building blocks of a site. These include things like content headers, lists, links, color schemes, form fields, and other simple elements. Components [patterns, feature blocks] are larger sets of elements reused throughout the site (see Glossary). Some examples are pagers, tabs, AJAX throbbers, search results, and system messages. User interactions like hovers, taps, clicks, and scrolling can also be included, as well as any animations used ([Adding items](http://codepen.io/valhead/full/adnKt), [jQuery Approach](http://srobbin.com/jquery-plugins/approach/)). 
 
-Base elements [basic elements, base styles, foundational elements] are the building blocks of a site. These include things like content headers, lists, links, color schemes, form fields, and other simple elements. 
-
-Components [patterns, feature blocks] are larger sets of elements reused throughout the site (see Glossary). Some examples are pagers, tabs, AJAX throbbers, search results, and system messages. 
- 
-User interactions like hovers, taps, clicks, and scrolling can also be included, as well as any animations used ([Adding items](http://codepen.io/valhead/full/adnKt), [jQuery Approach](http://srobbin.com/jquery-plugins/approach/)). 
-
-Pay special attention to links.  Represent links consistently so the user can predict what is a link and what is not.  Prefer usability to perfect aesthetics.
-
-* Basic text anchor tags
-* Images
-* Teasers and other composite wrapping links
-
+[Boilerplate guides](https://zurb.com/expo/lessons/creating-a-killer-style-guide) and [generators](https://github.com/davidhund/styleguide-generators) can speed up both the creation and maintenance processes.
 
 ## Agile Workflows
 
