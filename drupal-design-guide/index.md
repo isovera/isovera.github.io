@@ -66,9 +66,20 @@ People don’t read, they scan the web. Design for sub-optimal attention spans. 
 
 ### Accessibility is for everyone
 
-Curb cuts are good for baby strollers, lever door handles are useful when your hands are full or there’s an emergency. Seemingly innocuous design decisions can make a site impossible to use for some people. Read up on [WCAG 2.0](http://www.w3.org/TR/WCAG20/). Accessibility is also a human right.
+Curb cuts are good for baby strollers, lever door handles are useful when your hands are full or there’s an emergency. Every user benefits from websites that are more accessible and easier to use. Seemingly innocuous design decisions can make a site impossible to use for some people. Read up on [WCAG 2.0](http://www.w3.org/TR/WCAG20/). Accessibility is also a human right.
 
 [An Alphabet of Accessibility Issues](https://the-pastry-box-project.net/anne-gibson/2014-July-31) points out some of the less obvious challenges users may face when navigating websites.
+
+* good contrast
+* distinctive element appearance (buttons look like buttons)
+* don't just use color to differentiate between elements
+* Pay special attention to links.  Represent links consistently so the user can predict what is a link and what is not.  Prefer usability to perfect aesthetics
+* spacing
+* line lengths
+* design shouldn't break if user resizes text
+* don't include text as a part of images (alt text) (non-responsive images)
+* visual backup for audio cues
+* keyboard-only navigation (menus, forms)
 
 ## Mobile-First Design
 
