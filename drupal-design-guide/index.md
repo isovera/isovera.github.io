@@ -26,7 +26,7 @@ Front-end web development has entered an exciting and volatile phase. Responsive
 
 ## Content-Driven Design
 
-Design prototypes need placeholder text and graphics. In this section, we recommend spending the additional time to engage the client to obtain real client content for the production website. This makes us more dependent on a busy, or possibly, unmotivated client, but it is critical to the implementation and long-term success of the project.
+Design prototypes need placeholder text and graphics. In this section, we recommend spending the additional time to engage the client to obtain real client content for the production website. This makes us more dependent on a busy or possibly unmotivated client, but it is critical to the implementation and long-term success of the project.
 
 ### Use real, representative content
 
@@ -56,7 +56,7 @@ Interactions between bitmap images and overlapping text can be especially delica
 
 #### Identify the client’s capabilities
 
-Client’s have a limited amount of time and resources. Do they have a dedicated content creator? Will they have time allocated to work on the content of that special feature? Do they have access to Photoshop and are they comfortable working with HTML? Don’t assume they will use the tools that  you have access to as a designer. Limit content to what the client can provide and maintain.
+Clients have a limited amount of time and resources. Do they have a dedicated content creator? Will they have time allocated to work on the content of that special feature? Do they have access to Photoshop and are they comfortable working with HTML? Don’t assume they will use the tools that  you have access to as a designer. Limit content to what the client can provide and maintain.
 
 ### Resilient, not brittle
 
@@ -66,7 +66,20 @@ People don’t read, they scan the web. Design for sub-optimal attention spans. 
 
 ### Accessibility is for everyone
 
-Curb cuts are good for baby strollers, lever door handles are useful when your hands are full or there’s an emergency. Seemingly innocuous design decisions can make a site impossible to use for some people. Read up on [WCAG 2.0](http://www.w3.org/TR/WCAG20/). Accessibility is also a human right.
+Curb cuts are good for baby strollers, lever door handles are useful when your hands are full or there’s an emergency. Every user benefits from websites that are more accessible and easier to use. Seemingly innocuous design decisions can make a site impossible to use for some people. Read up on [WCAG 2.0](http://www.w3.org/TR/WCAG20/). Accessibility is also a human right.
+
+[An Alphabet of Accessibility Issues](https://the-pastry-box-project.net/anne-gibson/2014-July-31) points out some of the less obvious challenges users may face when navigating websites.
+
+* good contrast
+* distinctive element appearance (buttons look like buttons)
+* don't just use color to differentiate between elements
+* Pay special attention to links.  Represent links consistently so the user can predict what is a link and what is not.  Prefer usability to perfect aesthetics
+* spacing
+* line lengths
+* design shouldn't break if user resizes text
+* don't include text as a part of images (alt text) (non-responsive images)
+* visual backup for audio cues
+* keyboard-only navigation (menus, forms)
 
 ## Mobile-First Design
 
@@ -83,6 +96,8 @@ Art direction for responsive design: landscape/portrait, small/large:
 [http://usecases.responsiveimages.org/#art-direction](http://usecases.responsiveimages.org/#art-direction)
 
 Performance is critical. Consider image file sizes and count. Too many widgets or too large images will degrade the page load.
+
+[How we make RWD sites load fast as heck](http://www.filamentgroup.com/lab/performance-rwd.html)
 
 ### On Design Artifacts
 
@@ -134,56 +149,19 @@ For some components, the total count of items in a grid will not conform to a pr
 
 ### Breakpoints
 
-The web is fluid. Web browsers are a continuum of shapes, sizes, resolutions and capabilities. Instead of focusing exclusively on one, two or three breakpoints, consider appearance at interstitial viewport sizes. Remember that users often don’t maximize their browser windows.
+The web is fluid. Web browsers are a continuum of shapes, sizes, resolutions and capabilities. Instead of focusing exclusively on one, two or three breakpoints, consider appearance at interstitial viewport sizes. Remember that users often don’t maximize their browser windows or may be on a mobile device. [Think about device classes (smartphones) instead of specific devices (iPhone 6+).](http://alistapart.com/article/designing-for-breakpoints)
 
-A note on frameworks, e.g. Bootstrap, Foundation, etc.
+[Bootstrap](http://getbootstrap.com/), [Foundation](http://foundation.zurb.com/), and other frameworks can help. They come with well-tested, responsive CSS styles that work as a base for building responsive websites. 
 
 ## Style Guide-Driven Design
 
 ### Style guides
 
-Tailor the elements.
+A style guide details how individual site elements and components should look, rather than an entire page.  [Pattern Lab](http://demo.patternlab.io/) is a nice example of an interactive style guide and there are lots of others listed on [Website Style Guide Resources](http://styleguides.io/examples.html).
 
-* Content headers, lists, blockquotes
-* Form fields, fieldsets and buttons
-* Links
+Style guides have two main parts--base elements and components. Base elements [basic elements, base styles, foundational elements] are the building blocks of a site. These include things like content headers, lists, links, color schemes, form fields, and other simple elements. Components [patterns, feature blocks] are larger sets of elements reused throughout the site (see Glossary). Some examples are pagers, tabs, AJAX throbbers, search results, and system messages. User interactions like hovers, taps, clicks, and scrolling can also be included, as well as any animations used ([Adding items](http://codepen.io/valhead/full/adnKt), [jQuery Approach](http://srobbin.com/jquery-plugins/approach/)). 
 
-Components
-
-* Common
-    * Pagers
-    * Tabs
-    * AJAX throbbers
-    * Fallback default images
-
-* Custom
-    * Auction teaser
-    * Ancillary block
-
-Last but not least, standard system pages.
-
-* Search results
-* ‘Page not Found’ and ‘Access Denied’ pages
-* System messages
-* Maintenance page
-
-Pay special attention to links.  Represent links consistently so the user can predict what is a link and what is not.  Prefer usability to perfect aesthetics.
-
-* Basic text anchor tags
-* Images
-* Teasers and other composite wrapping links
-
-Don’t forget user interactions
-
-* Mouse hover
-* Tap/click
-* Scroll
-
-Consider animation
-
-[Adding items](http://codepen.io/valhead/full/adnKt)
-
-[jQuery Approach](http://srobbin.com/jquery-plugins/approach/)
+[Boilerplate guides](https://zurb.com/expo/lessons/creating-a-killer-style-guide) and [generators](https://github.com/davidhund/styleguide-generators) can speed up both the creation and maintenance processes.
 
 ## Agile Workflows
 
@@ -202,6 +180,8 @@ Sketch, screen share and explain your ideas and assumptions. Or meet in person.
 
 As [Ben Callan of Sparkbox has emphasized](http://www.uie.com/brainsparks/2014/11/07/ben-callahan-dissecting-design-live/), humility and empathy are key virtues for a successful responsive web design team. No one person on the project will be able to dictate the operational design of the site.
 
+[Why Designers and Web Developers Must Work Together](http://designmodo.com/designers-developers-work/) emphasizes the important of collaboration between those two roles in particular.
+
 ## Glossary
 
 *Component* - A repeatable pattern composed of text, form fields, images, or other elements. We use this term in place of *module*, which can be confused with the Drupal programming term.
@@ -214,6 +194,9 @@ As [Ben Callan of Sparkbox has emphasized](http://www.uie.com/brainsparks/2014/1
 * [Website Style Guide Resources](http://styleguides.io) by Anna Debenham and Brad Frost
 * [Responsive Web Design podcast](http://responsivewebdesign.com/podcast/) featuring Ethan Marcotte and Karen McGrane
 * [Style Tiles](http://styletil.es) by Samantha Warren
+* [Content-out Layout: the Resources](http://alistapart.com/blog/post/content-out-layout-the-resources/) by Nathan Ford
+* [About HTML semantics and front-end architecture](http://alistapart.com/blog/post/content-out-layout-the-resources/) by Nicolas Gallagher
+* [Designing for the Web](http://www.designingfortheweb.co.uk/) by Mark Boulton
 
 ### Books
 
