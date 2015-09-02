@@ -11,8 +11,8 @@ Front-end web development has entered an exciting and volatile phase. Responsive
 ## TL;DR
 
 1. Collaboration and feedback channels: Slack, Google Hangouts
-1. Planning and scheduling: Google Calendar, Basecamp and Github Milestones
-1. User stories: Github issues
+1. Planning and scheduling: Google Calendar, Basecamp and GitHub Milestones
+1. User stories: GitHub issues
 1. Use real content and design for both common cases and edge cases
 1. Never introduce features or unusual structures in Photoshop comps. Provide lo-fi wireframes and sketches.
 1. Design to accommodate older displays, visual disabilities and keyboard navigation
